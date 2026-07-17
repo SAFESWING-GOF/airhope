@@ -1,0 +1,6 @@
+{
+  "name": "Airhope",
+  "description": "A high-fidelity Discord-like chat and collaboration platform featuring customizable servers, channels, direct messaging, user presence, voice channel simulations, search, and responsive mobile and desktop layouts.",
+  "requestFramePermissions": ["microphone", "camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

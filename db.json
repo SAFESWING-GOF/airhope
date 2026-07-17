@@ -1,0 +1,304 @@
+{
+  "users": {
+    "me": {
+      "id": "u_me",
+      "username": "Guest_User",
+      "avatar": "bg-emerald-500",
+      "status": "online",
+      "customStatus": "Exploring Airhope!"
+    },
+    "hope_bot": {
+      "id": "u_hope_bot",
+      "username": "Hope AI",
+      "avatar": "bg-indigo-600",
+      "status": "online",
+      "customStatus": "Here to help! Ask me anything.",
+      "isBot": true,
+      "activity": {
+        "name": "System Diagnostics",
+        "type": "playing",
+        "details": "Optimizing Airhope server"
+      }
+    },
+    "zenith_gamer": {
+      "id": "u_zenith_gamer",
+      "username": "Zenith_Gamer",
+      "avatar": "bg-rose-500",
+      "status": "online",
+      "customStatus": "Climbing the ranks 🎮",
+      "activity": {
+        "name": "Valorant",
+        "type": "playing",
+        "details": "Ranked Match - 14/12/5"
+      }
+    },
+    "astro_coder": {
+      "id": "u_astro_coder",
+      "username": "AstroCoder",
+      "avatar": "bg-cyan-500",
+      "status": "dnd",
+      "customStatus": "Code is poetry 💻",
+      "activity": {
+        "name": "VS Code",
+        "type": "playing",
+        "details": "Refactoring Typescript components"
+      }
+    },
+    "chill_vibes": {
+      "id": "u_chill_vibes",
+      "username": "Chill_Vibes",
+      "avatar": "bg-amber-500",
+      "status": "idle",
+      "customStatus": "Relaxing with lofi",
+      "activity": {
+        "name": "Spotify",
+        "type": "listening",
+        "details": "Lofi hip hop radio - beats to study/relax to"
+      }
+    },
+    "pixel_queen": {
+      "id": "u_pixel_queen",
+      "username": "PixelQueen",
+      "avatar": "bg-purple-500",
+      "status": "online",
+      "customStatus": "Drawing cute sprites ✨",
+      "activity": {
+        "name": "Aseprite",
+        "type": "playing",
+        "details": "Drawing character sprites"
+      }
+    },
+    "matrix_neo": {
+      "id": "u_matrix_neo",
+      "username": "Neo_The_One",
+      "avatar": "bg-neutral-800",
+      "status": "offline"
+    },
+    "u_me": {
+      "id": "u_me",
+      "username": "Guest_User",
+      "avatar": "bg-emerald-500",
+      "status": "online",
+      "customStatus": "Exploring Airhope!"
+    }
+  },
+  "servers": [
+    {
+      "id": "s_airhope",
+      "name": "Airhope Official",
+      "icon": "AH",
+      "iconBg": "bg-indigo-600",
+      "banner": "bg-gradient-to-r from-indigo-600 to-sky-500",
+      "ownerId": "u_hope_bot",
+      "channels": [
+        {
+          "id": "c_welcome",
+          "name": "welcome-rules",
+          "type": "text",
+          "description": "Rules and general info for Airhope!"
+        },
+        {
+          "id": "c_general",
+          "name": "general-chat",
+          "type": "text",
+          "description": "The main place to hang out and talk."
+        },
+        {
+          "id": "c_tech",
+          "name": "tech-talk",
+          "type": "text",
+          "description": "Let's talk programming, hardware, and tech!"
+        },
+        {
+          "id": "c_memes",
+          "name": "memes",
+          "type": "text",
+          "description": "Post your funniest memes here."
+        },
+        {
+          "id": "c_lounge_v",
+          "name": "Lounge 🔊",
+          "type": "voice"
+        },
+        {
+          "id": "c_gaming_v",
+          "name": "Gaming Zone 🔊",
+          "type": "voice"
+        },
+        {
+          "id": "c_music_v",
+          "name": "Music Jam 🔊",
+          "type": "voice"
+        }
+      ]
+    },
+    {
+      "id": "s_gamers",
+      "name": "Gamers Guild",
+      "icon": "GG",
+      "iconBg": "bg-rose-600",
+      "banner": "bg-gradient-to-r from-rose-500 to-orange-500",
+      "ownerId": "u_zenith_gamer",
+      "channels": [
+        {
+          "id": "c_game_news",
+          "name": "gaming-news",
+          "type": "text",
+          "description": "Latest news, patch updates, and esports."
+        },
+        {
+          "id": "c_party_up",
+          "name": "lfg-party",
+          "type": "text",
+          "description": "Find teammates and players for active lobby calls."
+        },
+        {
+          "id": "c_clips",
+          "name": "epic-clips",
+          "type": "text",
+          "description": "Share your highlights and game screenshots."
+        },
+        {
+          "id": "c_squad1_v",
+          "name": "Squad Call 1 🔊",
+          "type": "voice"
+        },
+        {
+          "id": "c_squad2_v",
+          "name": "Squad Call 2 🔊",
+          "type": "voice"
+        }
+      ]
+    }
+  ],
+  "messages": {
+    "c_welcome": [
+      {
+        "id": "w1",
+        "channelId": "c_welcome",
+        "sender": {
+          "id": "u_hope_bot",
+          "username": "Hope AI",
+          "avatar": "bg-indigo-600",
+          "status": "online",
+          "customStatus": "Here to help! Ask me anything.",
+          "isBot": true,
+          "activity": {
+            "name": "System Diagnostics",
+            "type": "playing",
+            "details": "Optimizing Airhope server"
+          }
+        },
+        "content": "Welcome to **Airhope**! 🚀 This is a real-time full-stack collaboration platform styled precisely like Discord. Share **AirHope.net** with friends, join voice channels, and live-stream your screen or camera!",
+        "timestamp": "Today at 9:00 AM"
+      }
+    ],
+    "c_general": [
+      {
+        "id": "g1",
+        "channelId": "c_general",
+        "sender": {
+          "id": "u_chill_vibes",
+          "username": "Chill_Vibes",
+          "avatar": "bg-amber-500",
+          "status": "idle",
+          "customStatus": "Relaxing with lofi",
+          "activity": {
+            "name": "Spotify",
+            "type": "listening",
+            "details": "Lofi hip hop radio - beats to study/relax to"
+          }
+        },
+        "content": "Hey everyone, welcome to the full-stack version of Airhope! Share **AirHope.net** to invite other users to chat in real-time!",
+        "timestamp": "Today at 10:15 AM"
+      }
+    ]
+  },
+  "friends": {
+    "u_me": [
+      {
+        "id": "f1",
+        "user": {
+          "id": "u_hope_bot",
+          "username": "Hope AI",
+          "avatar": "bg-indigo-600",
+          "status": "online",
+          "customStatus": "Here to help! Ask me anything.",
+          "isBot": true,
+          "activity": {
+            "name": "System Diagnostics",
+            "type": "playing",
+            "details": "Optimizing Airhope server"
+          }
+        },
+        "relation": "friend"
+      },
+      {
+        "id": "f2",
+        "user": {
+          "id": "u_zenith_gamer",
+          "username": "Zenith_Gamer",
+          "avatar": "bg-rose-500",
+          "status": "online",
+          "customStatus": "Climbing the ranks 🎮",
+          "activity": {
+            "name": "Valorant",
+            "type": "playing",
+            "details": "Ranked Match - 14/12/5"
+          }
+        },
+        "relation": "friend"
+      },
+      {
+        "id": "f3",
+        "user": {
+          "id": "u_astro_coder",
+          "username": "AstroCoder",
+          "avatar": "bg-cyan-500",
+          "status": "dnd",
+          "customStatus": "Code is poetry 💻",
+          "activity": {
+            "name": "VS Code",
+            "type": "playing",
+            "details": "Refactoring Typescript components"
+          }
+        },
+        "relation": "friend"
+      },
+      {
+        "id": "f4",
+        "user": {
+          "id": "u_chill_vibes",
+          "username": "Chill_Vibes",
+          "avatar": "bg-amber-500",
+          "status": "idle",
+          "customStatus": "Relaxing with lofi",
+          "activity": {
+            "name": "Spotify",
+            "type": "listening",
+            "details": "Lofi hip hop radio - beats to study/relax to"
+          }
+        },
+        "relation": "friend"
+      },
+      {
+        "id": "f5",
+        "user": {
+          "id": "u_pixel_queen",
+          "username": "PixelQueen",
+          "avatar": "bg-purple-500",
+          "status": "online",
+          "customStatus": "Drawing cute sprites ✨",
+          "activity": {
+            "name": "Aseprite",
+            "type": "playing",
+            "details": "Drawing character sprites"
+          }
+        },
+        "relation": "friend"
+      }
+    ]
+  },
+  "dms": {},
+  "streams": {}
+}
